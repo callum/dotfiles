@@ -1,0 +1,14 @@
+"*":
+  core:
+    projectHome: "/Users/callum/Projects"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "tomorrow-night-eighties-syntax"
+    ]
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "2cdaf04f-9ed4-693e-c066-01cfc6e25bc3"
+  welcome:
+    showOnStartup: false

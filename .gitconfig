@@ -1,0 +1,15 @@
+[core]
+	excludesfile = /Users/callum/.gitignore_global
+	editor = atom -w
+[user]
+	name = Callum
+	email = callum@madebymany.co.uk
+[alias]
+	amend = commit --amend --no-edit
+	undo = reset --soft HEAD^
+	cm = commit
+	co = checkout
+	df = diff
+	ds = diff --staged
+	rb = rebase
+	st = status --short
