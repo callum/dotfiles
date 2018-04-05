@@ -15,6 +15,7 @@ brew cask install google-chrome
 brew cask install insomnia
 brew cask install sketch
 brew cask install slack
+brew cask install telegram
 
 # atom packages
 apm install flow-ide
