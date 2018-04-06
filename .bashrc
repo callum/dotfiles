@@ -1,3 +1,6 @@
+alias dc="docker-compose"
+alias de="docker-compose exec"
+
 _pwd_short() {
   echo $PWD | sed "s:${HOME}:~:" | sed "s:/\(.\)[^/]*:/\1:g" | sed "s:/[^/]*$:/$(basename $PWD):"
 }
@@ -8,6 +11,10 @@ fi
 
 if [ -f /usr/local/etc/bash_completion ]; then
   source /usr/local/etc/bash_completion
+fi
+
+if [ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
+  source /usr/local/etc/bash_completion.d/git-prompt.sh
 fi
 
 eval "$(hub alias -s)"
